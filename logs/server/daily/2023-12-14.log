@@ -1,0 +1,323 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:10:19.636Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:10:19.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:10:53.315Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:10:53.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:11:18.174Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:11:18.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:13:46.047Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:13:46.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:15:31.794Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:15:31.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:17:15.242Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:17:15.279Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:17:18.790Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:18:11.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:19:13.117Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:19:13.156Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:19:17.739Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:20:14.754Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:20:14.821Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:21:43.386Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:22:48.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:23:48.534Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:23:48.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:24:50.862Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:24:50.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:30:37.448Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:30:37.600Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:31:02.918Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:32:50.480Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:33:53.106Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:34:16.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:34:48.164Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:34:48.205Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: firstName: Path `firstName` is required.
+    at model.Document.invalidate (E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at E:\Bridgelabz\Backend\Fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:34:51.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:39:55.753Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:39:55.800Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:17:5)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:40:31.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:41:58.571Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:41:58.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:46:54.187Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:46:54.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:49:25.511Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:49:25.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:50:25.484Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:50:25.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:50:49.637Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:50:49.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:59:16.983Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:59:17.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:59:57.408Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:59:57.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:02:40.525Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:02:40.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:06:15.966Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:06:15.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:13:00.180Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:13:00.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:15:42.039Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:15:42.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:24:23.463Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:24:23.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:26:39.213Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:26:39.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:27:45.483Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:27:45.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:33:13.708Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:33:13.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:34:01.995Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:34:02.032Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:34:21.297Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:34:55.391Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:35:15.964Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:35:30.235Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:35:33.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:35:47.551Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:35:47.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:35:50.302Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:35:59.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:39:29.892Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:39:29.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:41:48.897Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:41:48.942Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:14:9)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:41:51.477Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:14:9)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:43:36.510Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:14:9)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:43:38.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:44:04.558Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:44:04.788Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:14:8)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:44:06.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:44:50.156Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:44:50.199Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:47:26.569Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:47:26.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:48:48.368Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:48:48.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:49:13.906Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:49:13.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:51:04.109Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:51:04.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:54:30.844Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:54:30.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:56:44.579Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:56:44.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T10:59:10.338Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:59:10.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:01:02.771Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:01:02.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:01:28.374Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:01:28.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:02:19.059Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:02:19.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:08:26.047Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:08:26.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:08:48.621Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:08:48.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:09:08.285Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:09:08.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:09:32.639Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:09:32.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:09:44.856Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:09:44.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:11:26.680Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:11:26.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:13:21.228Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:13:21.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T11:14:25.068Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:14:25.106Z"}
