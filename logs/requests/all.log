@@ -1,0 +1,298 @@
+info: ::1 - - [14/Dec/2023:09:10:23 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:10:37 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:10:39 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:10:55 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:11:03 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:11:05 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:11:31 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:13:50 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:14:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 178 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:17:18 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:18:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:19:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:20:26 +0000] "GET /api/v1/users/ HTTP/1.1" 200 185 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:21:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:22:48 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:23:57 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:24:10 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:24:36 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:24:53 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Dec 14 2023 15:01:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":313.562},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18748090,"external":21763605,"heapTotal":77709312,"heapUsed":46922976,"rss":115163136},"pid":10184,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [14/Dec/2023:09:31:29 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:31:38 +0000] "GET /api/v1/users/ HTTP/1.1" 200 185 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:32:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:33:53 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:34:16 +0000] "POST /api/v1/users/register HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:34:34 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:34:51 +0000] "POST /api/v1/users/ HTTP/1.1" 500 99 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:40:31 +0000] "POST /api/v1/users/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:41:59 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:44:25 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:44:45 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:45:33 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:45:50 +0000] "GET /api/v1/users/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:45:58 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:11 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:12 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:14 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:15 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:15 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:16 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:18 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:18 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:19 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:22 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:22 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:37 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:42 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:46:56 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:47:46 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:47:48 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:49:27 +0000] "POST /api/v1/users/ HTTP/1.1" 201 178 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:50:11 +0000] "POST /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:50:34 +0000] "POST /api/v1/users/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:50:37 +0000] "POST /api/v1/users/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:51:40 +0000] "POST /api/v1/users/add HTTP/1.1" 201 178 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:52:37 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Dec/2023:09:58:40 +0000] "POST /api/v1/users/add HTTP/1.1" 201 178 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:09:58:56 +0000] "POST /api/v1/users/add HTTP/1.1" 201 178 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:00:00 +0000] "POST /api/v1/users/add HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:03:05 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:03:10 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:04:16 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:06:59 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:07:34 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:13:36 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:15:50 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:18:11 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:18:15 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:24:26 +0000] "POST /api/v1/users/register HTTP/1.1" 201 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:26:42 +0000] "POST /api/v1/users/register HTTP/1.1" 400 226 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:28:00 +0000] "GET /api/v1/users/ HTTP/1.1" 200 107 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:29:24 +0000] "POST /api/v1/users/register HTTP/1.1" 201 204 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:33:42 +0000] "POST /api/v1/users/register HTTP/1.1" 201 207 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:34:21 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:34:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:35:15 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:35:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:35:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:35:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 87 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:35:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:36:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 211 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:39:32 +0000] "POST /api/v1/users/register HTTP/1.1" 201 211 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:39:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:40:24 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:40:27 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:41:36 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:41:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:41:51 +0000] "POST /api/v1/users/register HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:43:36 +0000] "POST /api/v1/users/register HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:43:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:44:07 +0000] "POST /api/v1/users/register HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:44:54 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:45:26 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:45:28 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:47:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:48:36 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:49:01 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:49:15 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:49:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:49:40 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:50:48 +0000] "POST /api/v1/users/register HTTP/1.1" 201 106 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:51:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 43 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:51:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 43 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:54:16 +0000] "POST /api/v1/users/register HTTP/1.1" 201 43 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:54:18 +0000] "POST /api/v1/users/register HTTP/1.1" 201 43 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:55:28 +0000] "POST /api/v1/users/register HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:55:49 +0000] "POST /api/v1/users/register HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:57:39 +0000] "POST /api/v1/users/register HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:58:36 +0000] "POST /api/v1/users/register HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:58:45 +0000] "POST /api/v1/users/register HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:10:59:12 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:01:15 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:01:18 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:01:31 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:02:21 +0000] "POST /api/v1/users/register HTTP/1.1" 201 213 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:02:31 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:08:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:08:12 +0000] "POST /api/v1/users/register HTTP/1.1" 201 57 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: User with the same email already exists
+Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:16:13)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Dec 14 2023 16:38:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6160.25},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18713984,"external":21729499,"heapTotal":81936384,"heapUsed":53555184,"rss":119042048},"pid":10852,"uid":null,"version":"v20.9.0"},"stack":"Error: User with the same email already exists\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:16:13)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":13,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":16,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: User with the same email already exists
+Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:16:13)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Dec 14 2023 16:39:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6191.343},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18271706,"external":21287221,"heapTotal":82800640,"heapUsed":48334960,"rss":119599104},"pid":268,"uid":null,"version":"v20.9.0"},"stack":"Error: User with the same email already exists\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:16:13)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":13,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":16,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: User with the same email already exists
+Error: User with the same email already exists
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:15:13)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Dec 14 2023 16:39:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6215.015},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18734094,"external":21749609,"heapTotal":82219008,"heapUsed":50887960,"rss":118808576},"pid":13676,"uid":null,"version":"v20.9.0"},"stack":"Error: User with the same email already exists\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:15:13)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":13,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":15,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [14/Dec/2023:11:09:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:11:28 +0000] "POST /api/v1/users/register HTTP/1.1" 409 46 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:12:58 +0000] "POST /api/v1/users/register HTTP/1.1" 409 46 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:13:06 +0000] "POST /api/v1/users/register HTTP/1.1" 409 46 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:13:25 +0000] "POST /api/v1/users/register HTTP/1.1" 409 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:14:02 +0000] "POST /api/v1/users/register HTTP/1.1" 409 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:14:10 +0000] "POST /api/v1/users/register HTTP/1.1" 409 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [14/Dec/2023:11:14:27 +0000] "POST /api/v1/users/register HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
