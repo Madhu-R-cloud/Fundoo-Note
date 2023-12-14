@@ -36,7 +36,7 @@ export const newUser = async (req, res, next) => {
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'User Registraion is successfully'
+        message: 'User Registrtaion is successfully'
       });
     }else{
       res.status(409).json({
