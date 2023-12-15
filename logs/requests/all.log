@@ -296,3 +296,412 @@ info: ::1 - - [14/Dec/2023:11:14:10 +0000] "POST /api/v1/users/register HTTP/1.1
 
 info: ::1 - - [14/Dec/2023:11:14:27 +0000] "POST /api/v1/users/register HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [15/Dec/2023:05:16:32 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:16:44 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:17:26 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:18:19 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:18:57 +0000] "POST /api/v1/users/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:03 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:18 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:20 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:22 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:27 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:41 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:51 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:20:58 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:21:15 +0000] "GET /api/v1/users/ HTTP/1.1" 200 505 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:21:28 +0000] "GET /api/v1/users/ HTTP/1.1" 200 505 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:21:42 +0000] "GET /api/v1/users/ HTTP/1.1" 200 505 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:23:15 +0000] "POST /api/v1/users/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:23:32 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:29:44 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 10:59:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72243.781},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18274025,"external":21288135,"heapTotal":83849216,"heapUsed":46540304,"rss":116969472},"pid":4648,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":19,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:00:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72306.953},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18271559,"external":21284853,"heapTotal":49770496,"heapUsed":44988824,"rss":84692992},"pid":15736,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":19,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:01:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72331.359},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755562,"external":21771077,"heapTotal":80146432,"heapUsed":57130840,"rss":117395456},"pid":13288,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":19,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:01:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72361.234},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755532,"external":21771047,"heapTotal":82505728,"heapUsed":49901152,"rss":119160832},"pid":16220,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":19,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:03:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72436},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18271571,"external":21284865,"heapTotal":49246208,"heapUsed":45065600,"rss":83693568},"pid":11800,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee2$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee2$","line":19,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2023:05:33:31 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:33:51 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:33:56 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:34:09 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:34:33 +0000] "POST /api/v1/users/ HTTP/1.1" 500 66 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:34:43 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:36:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:15:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73202.531},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18778219,"external":21793734,"heapTotal":82264064,"heapUsed":48999576,"rss":119242752},"pid":8932,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee3$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:36:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee3$","line":36,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:36:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:17:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73292.187},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18273345,"external":21287455,"heapTotal":83062784,"heapUsed":44832664,"rss":117768192},"pid":15064,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee3$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:36:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee3$","line":36,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:36:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:19:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73428.156},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18277876,"external":21291170,"heapTotal":48459776,"heapUsed":45217800,"rss":80650240},"pid":10712,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee3$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:36:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee3$","line":36,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:36:11)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:19:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73448.031},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272373,"external":21286483,"heapTotal":84111360,"heapUsed":44716632,"rss":116314112},"pid":1524,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee3$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:36:11)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee3$","line":36,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading 'email')
+TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (E:\Bridgelabz\Backend\Fundoo-note\src\services\/user.service.js:38:18)
+    at tryCatch (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:21:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73525.375},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272253,"external":21286363,"heapTotal":85159936,"heapUsed":44734992,"rss":116801536},"pid":15244,"uid":null,"version":"v20.9.0"},"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at _callee3$ (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js:38:18)\n    at tryCatch (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":18,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\services\\/user.service.js","function":"_callee3$","line":38,"method":null,"native":false},{"column":16,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2023:05:52:44 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:55:59 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:56:53 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:57:28 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:57:40 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:58:04 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:58:46 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:58:52 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:59:16 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:59:34 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:05:59:58 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:00:26 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:00:33 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:01:09 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:01:59 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:02:16 +0000] "POST /api/v1/users/ HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:02:38 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:03:11 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:09:10 +0000] "POST /api/v1/users/login/ HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:11:41 +0000] "POST /api/v1/users/login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:13:04 +0000] "POST /api/v1/users/Login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:13:47 +0000] "POST /api/v1/users/Login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:13:50 +0000] "POST /api/v1/users/Login HTTP/1.1" 409 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:15:03 +0000] "POST /api/v1/users/Login HTTP/1.1" 409 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:16:01 +0000] "POST /api/v1/users/Login HTTP/1.1" 409 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:17:29 +0000] "POST /api/v1/users/Login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:17:54 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:18:14 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:20:18 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:20:23 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:25:35 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:28:12 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:29:16 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:29:54 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:30:29 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:30:33 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:31:09 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:54:05 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:06:56:29 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:07:31:44 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Dec 15 2023 13:11:55 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80166.14},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18784957,"external":21800472,"heapTotal":82530304,"heapUsed":51387296,"rss":117788672},"pid":14040,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Dec 15 2023 13:13:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80233.921},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18275051,"external":21290566,"heapTotal":83587072,"heapUsed":48810816,"rss":116944896},"pid":2576,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Dec 15 2023 13:16:10 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80420.984},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18275055,"external":21290570,"heapTotal":77819904,"heapUsed":43420904,"rss":114311168},"pid":10292,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2023:07:47:24 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:07:47:43 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:07:48:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:07:48:13 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:07:50:01 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:40:09 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:40:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:41:02 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:41:38 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:44:45 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Dec 15 2023 14:16:07 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84017.984},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18275053,"external":21290568,"heapTotal":76771328,"heapUsed":54852448,"rss":115257344},"pid":5328,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (E:\Bridgelabz\Backend\Fundoo-note\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.newLoader [as .js] (E:\Bridgelabz\Backend\Fundoo-note\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (E:\Bridgelabz\Backend\Fundoo-note\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Dec 15 2023 14:17:00 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84071.14},"process":{"argv":["node","E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\index.js"],"cwd":"E:\\Bridgelabz\\Backend\\Fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18275055,"external":21290570,"heapTotal":77557760,"heapUsed":43932456,"rss":115871744},"pid":13164,"uid":null,"version":"v20.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Object.newLoader [as .js] (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":24,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":7,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"E:\\Bridgelabz\\Backend\\Fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2023:08:47:44 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:50:06 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:50:33 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:51:08 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:52:46 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:53:28 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:53:49 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:54:52 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:55:30 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:55:53 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:56:20 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:56:40 +0000] "POST /api/v1/users/login HTTP/1.1" 201 205 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:56:57 +0000] "POST /api/v1/users/login HTTP/1.1" 201 205 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:56:59 +0000] "POST /api/v1/users/login HTTP/1.1" 201 205 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:57:01 +0000] "POST /api/v1/users/login HTTP/1.1" 201 205 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:58:16 +0000] "POST /api/v1/users/login HTTP/1.1" 201 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:08:58:30 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:01:26 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:01:28 +0000] "POST /api/v1/users/login HTTP/1.1" 401 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:02:33 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:03:52 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:04:32 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:04:52 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:05:13 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:05:39 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:06:08 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:07:00 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:07:46 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:08:30 +0000] "POST /api/v1/users/login HTTP/1.1" 401 12 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:15:25 +0000] "POST /api/v1/users/login HTTP/1.1" 401 68 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:15:38 +0000] "POST /api/v1/users/login HTTP/1.1" 401 44 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:15:44 +0000] "POST /api/v1/users/login HTTP/1.1" 201 49 "-" "PostmanRuntime/7.36.0"
+

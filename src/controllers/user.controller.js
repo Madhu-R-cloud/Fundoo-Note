@@ -29,9 +29,9 @@ export const getAllUsers = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
-  
-    const data = await UserService.newUser(req.body);
+export const RegisterUser = async (req, res, next) => {
+    // console.log(req.body)
+    const data = await UserService.RegisterUser(req.body);
     if(!Error){
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
@@ -39,9 +39,36 @@ export const newUser = async (req, res, next) => {
         message: 'User Registraion is successfully'
       });
     }else{
-      res.status(409).json({
-        code : 409,
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code : HttpStatus.BAD_REQUEST,
         message: 'User with the same email already exists, Please Login'
       });
     }
+};
+
+
+
+export const Login = async (req, res, next) => {
+  // console.log(req.body);
+  try {
+    const data = await UserService.Login(req.body);
+
+    if (!data.error) {
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        message: 'User Login is successful',
+      });
+    } else {
+      res.status(HttpStatus.UNAUTHORIZED).json({
+        code: HttpStatus.UNAUTHORIZED,
+        message: data.error.message,
+      });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+      code: HttpStatus.INTERNAL_SERVER_ERROR,
+      message: 'Internal server error',
+    });
+  }
 };
