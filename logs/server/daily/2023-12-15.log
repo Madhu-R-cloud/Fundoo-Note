@@ -1,0 +1,237 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:16:28.827Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:16:28.901Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:16:32.601Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:16:44.581Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:17:26.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:17:55.148Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:17:55.228Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:18:19.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:21:11.210Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:21:11.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:21:38.913Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:21:38.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:23:30.367Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:23:30.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:29:38.584Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:29:38.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:30:27.795Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:30:27.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:31:06.826Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:31:06.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:31:16.264Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:31:16.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:31:49.961Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:31:50.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:31:58.036Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:31:58.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:33:14.912Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:33:14.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:33:24.114Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:33:24.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:34:08.016Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:34:08.056Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:34:33.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:45:46.776Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:45:46.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:47:03.732Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:47:03.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:47:28.833Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:47:28.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:49:54.373Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:49:54.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:50:35.974Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:50:36.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:51:14.396Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:51:14.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:52:33.959Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:52:34.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:57:23.598Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:57:23.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:58:00.352Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:58:00.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:59:10.798Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:59:10.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:01:07.393Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:01:07.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:02:13.288Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:02:13.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:03:09.477Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:03:09.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:09:04.054Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:09:04.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:14:08.490Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:14:08.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:16:22.677Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:16:22.754Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:17:54.909Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:18:14.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:18:34.277Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:18:34.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:23:50.937Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:23:51.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:28:06.355Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:28:06.427Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:28:12.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:29:33.368Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:29:33.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:53:53.148Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:53:53.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T07:36:44.256Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:36:44.326Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:41:55.606Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:43:03.300Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:46:10.338Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-12-15T07:46:51.707Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:46:51.744Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T07:47:24.704Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T07:47:43.041Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-12-15T07:48:00.657Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:48:00.752Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T07:48:03.074Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T07:48:12.993Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T07:50:01.082Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:40:09.251Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:40:50.269Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:41:02.195Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:41:38.746Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-12-15T08:42:57.169Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:42:57.273Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:44:45.195Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-12-15T08:45:11.585Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:45:11.634Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:46:07.395Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:47:00.497Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:47:26.980Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:47:27.019Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:52:41.499Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:52:41.582Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:53:46.600Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:53:46.696Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:54:42.143Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:54:42.197Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:55:47.394Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:55:47.510Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:56:36.692Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:56:36.788Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T08:57:16.994Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:57:17.114Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:01:45.358Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:01:45.447Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:03:47.932Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:03:48.038Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:05:10.074Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:05:10.167Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:06:01.978Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:06:02.176Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:08:28.338Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:08:28.533Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-12-15T09:15:16.566Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:15:16.683Z"}

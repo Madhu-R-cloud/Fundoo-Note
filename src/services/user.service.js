@@ -8,14 +8,46 @@ export const getAllUsers = async () => {
 };
 
 //new user registration
-export const newUser = async (body) => {
-  const userExists = await User.findOne({ email: body.email });
+export const RegisterUser = async (body) => {
 
-  if (userExists) {
-      return new Error('User with the same email already exists');
-  } else {
-      const data = await User.create(body);
-      console.log('User created successfully');
-      return data;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const isEmailValid = emailRegex.test(body.email);
+
+  if (!isEmailValid) {
+    return new Error('Invalid email format');
   }
+  const existingUser = await User.findOne({ $or: [{ email: body.email }, { phone: body.phone }] });
+
+    if (existingUser) {
+        if (existingUser.email === body.email) {
+            return new Error('User with the same email already exists');
+        } else if (existingUser.phone === body.phone) {
+            return new Error('User with the same phone number already exists');
+        }
+  else {
+    const data = await User.create(body);
+    return data;
+  }
+}
+};
+
+// User Login
+export const Login = async (body) => {
+  try {
+    const user = await User.findOne({ email: body.email });
+
+    if (!user) {
+      return { error: new Error('User does not exist. Please register first.') };
+    }
+
+    if (user.password == body.password) {
+      console.log('Login Success');
+      return { user };
+    } else {
+      return { error: new Error('Invalid credentials') };
+    }
+  } catch (error) {
+    console.error(error);
+    return { error };
+  }  
 };
