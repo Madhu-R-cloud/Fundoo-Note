@@ -14,7 +14,7 @@ export const getAllUsers = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'All users fetched successfully'
+      message: 'All Notes fetched successfully'
     });
   } catch (error) {
     next(error);
@@ -36,7 +36,7 @@ export const RegisterUser = async (req, res, next) => {
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'User Registraion is successfully'
+        message: 'User Registrtaion is successfully'
       });
     }else{
       res.status(HttpStatus.BAD_REQUEST).json({
