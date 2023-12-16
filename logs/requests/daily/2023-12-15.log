@@ -212,3 +212,121 @@ info: ::1 - - [15/Dec/2023:09:15:38 +0000] "POST /api/v1/users/login HTTP/1.1" 4
 
 info: ::1 - - [15/Dec/2023:09:15:44 +0000] "POST /api/v1/users/login HTTP/1.1" 201 49 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [15/Dec/2023:09:55:09 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:55:20 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:55:36 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:55:55 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:09:58:26 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:00:17 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:00:46 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:01:11 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:01:45 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:02:09 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:02:58 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:03:35 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:05:21 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:07:33 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:08:14 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:11:26 +0000] "POST /api/v1/users HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:12:03 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:13:04 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:13:17 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:13:46 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:14:25 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:14:45 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:15:26 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:16:17 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:16:34 +0000] "POST /api/v1/users HTTP/1.1" 201 211 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:16:40 +0000] "POST /api/v1/users HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:17:07 +0000] "POST /api/v1/users HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:17:10 +0000] "POST /api/v1/users HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:17:28 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:19:19 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:19:27 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:21:57 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:22:36 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:22:44 +0000] "POST /api/v1/users HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:22:52 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:24:10 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:26:48 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:27:45 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:27:57 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:29:13 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:29:32 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:31:25 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:32:41 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:37:53 +0000] "POST /api/v1/users HTTP/1.1" 201 265 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:38:17 +0000] "POST /api/v1/users HTTP/1.1" 201 263 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:38:22 +0000] "POST /api/v1/users HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:38:46 +0000] "POST /api/v1/users HTTP/1.1" 201 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:39:15 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:39:34 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:39:39 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:39:56 +0000] "POST /api/v1/users HTTP/1.1" 400 97 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:40:42 +0000] "POST /api/v1/users/login HTTP/1.1" 401 44 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:48:58 +0000] "POST /api/v1/users/login HTTP/1.1" 401 43 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:51:00 +0000] "POST /api/v1/users/login HTTP/1.1" 401 77 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:10:55:37 +0000] "POST /api/v1/users/login HTTP/1.1" 401 77 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:11:00:09 +0000] "POST /api/v1/users/login HTTP/1.1" 401 77 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:11:00:30 +0000] "POST /api/v1/users/login HTTP/1.1" 401 77 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:11:00:53 +0000] "POST /api/v1/users/login HTTP/1.1" 500 46 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [15/Dec/2023:11:01:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 46 "-" "PostmanRuntime/7.36.0"
+

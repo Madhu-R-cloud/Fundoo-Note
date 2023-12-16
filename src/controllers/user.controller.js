@@ -14,7 +14,7 @@ export const getAllUsers = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'All users fetched successfully'
+      message: 'All Notes fetched successfully'
     });
   } catch (error) {
     next(error);
